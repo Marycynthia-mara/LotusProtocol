@@ -492,7 +492,7 @@ a{
 .pack-container > .panel-head{	
 	color: #FFF;
 	padding:15px; 
-	background-color: #1269DB; 
+	background-color: #160d45; 
 	border-bottom: 1px solid #CCC;
 }
 
@@ -715,7 +715,7 @@ a{
 
 /******************************** Admin css **************************/
 .card_header_bg_blue{
-	background-color: #127aff !important;
+	background-color: #160d45 !important;
 }
 
 .edit_pack_cont{

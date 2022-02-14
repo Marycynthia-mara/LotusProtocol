@@ -17,7 +17,7 @@
     <div class="account-section" style="background-image: url('/img/account-bg.jpg');">
         <div class="container">
             <div class="account-title">
-                <a href="" class="back-home"><i class="fas fa-angle-left"></i>Back</a>
+                <a href="/" class="back-home"><i class="fas fa-angle-left"></i>Home</a>
                 <a href="#0" class="logo">
                     <img width="80px" height="auto" src="/img/{{$settings->site_logo}}" alt="{{$settings->site_title}}">
                 </a>
@@ -70,7 +70,7 @@
                             <label style="text-align: left;" class="sign-in-recovery">Forgot your password? 
                                 
                                 @if (Route::has('password.request'))
-                                <a style="font-size:12px; color:#6A35FF;" class="btn btn-link" href="{{ route('password.request') }}">
+                                <a style="font-size:12px; color:#6A35FF; padding : 5px 15px 5px 5px !important;" class="btn btn-link" href="{{ route('password.request') }}">
                                     {{ __('Recover password') }}
                                 </a>
                                 @endif

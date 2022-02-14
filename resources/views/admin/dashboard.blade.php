@@ -25,7 +25,7 @@
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <div class="card card-primary @if($adm->role < 2) {{'blur_cnt'}}@endif">
+                            <div class="card card-primary @if($adm->role < 2) {{'blur_cnt'}}@endif" style="background: #160d45 !important;">
                                 <div class="card-header">
                                     <div class="card-title"> {{ __('Withdrawal Stats') }} </div>                                    
                                 </div>

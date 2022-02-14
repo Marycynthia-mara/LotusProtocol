@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="/atlantis/css/style.css">
 
     <!-- CSS Just for demo purpose, don't include it in your project -->
-    <link rel="stylesheet" href="/atlantis/css/demo.css">
+    {{-- <link rel="stylesheet" href="/atlantis/css/demo.css"> --}}
     <!-- jquery lib -->
     <script src="/atlantis/js/core/jquery.3.2.1.min.js"></script>
 </head>
@@ -88,7 +88,7 @@
 <script src="/atlantis/js/atlantis.min.js"></script>
 
 <!-- Atlantis DEMO methods, don't include it in your project! -->
-<script src="/atlantis/js/setting-demo.js"></script>
+{{-- <script src="/atlantis/js/setting-demo.js"></script> --}}
 <!-- <script src="/atlantis/js/demo.js"></script>    -->
 <script src="/atlantis/js/moment.js"></script>
 <script src="/atlantis/main.js"></script>

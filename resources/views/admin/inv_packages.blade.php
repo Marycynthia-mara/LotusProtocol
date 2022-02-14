@@ -14,7 +14,7 @@
                                     <div class="card-head-row card-tools-still-right">
                                         <h4 class="card-title text-white"> <i class="fas fa-briefcase"></i> {{ __('Investment Packages') }} </h4>
                                         <div class="card-tools">
-                                            <a href="/admin/create/package" class="btn btn-default"><i class="fa fa-plus"></i> {{ __('Add') }} </a>
+                                            <a href="/admin/create/package" style="background-color: #7a66e1 !important" class="btn btn-default"><i class="fa fa-plus"></i> {{ __('Add') }} </a>
                                         </div>                                                                       
                                     </div>
                                 </div>

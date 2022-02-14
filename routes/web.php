@@ -11,7 +11,23 @@
 |
 */
 
-Route::get('/', function () {
+
+// default route to on page load
+Route::view('/', '/frontend/index');
+
+Route::view('/about', '/frontend/about');
+
+Route::view('/affiliate', '/frontend/affiliate');
+
+Route::view('/features', '/frontend/features');
+
+Route::view('/pricing', '/frontend/pricing');
+
+Route::view('/faq', '/frontend/faq');
+
+Route::view('/blog', '/frontend/blog');
+
+Route::get('/login', function () {
 	$user = Auth::User();
 	if(!empty($user))
 	{

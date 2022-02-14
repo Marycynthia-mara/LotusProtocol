@@ -2,7 +2,7 @@
 @section('content')
 <body>
     <div style="">
-        <img src="/img/adult.jpg" class="fixedOverlayIMG">         
+        <img src="/img/inv_bg2.jpg" class="fixedOverlayIMG">         
         <div class="fixedOeverlayBG"></div>
         <div class="">
             <div class="row admin_login_row">

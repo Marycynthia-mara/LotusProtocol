@@ -27,7 +27,7 @@
 							</div>
 						</div>
 						<div class="col-md-4">
-							<div class="card card-primary">
+							<div class="card card-primary" style="background: #160d45 !important;">
 								<div class="card-header">
 									<div class="card-title">{{ __('Withdrawal Stats') }} </div>
 									<div class="card-category">
