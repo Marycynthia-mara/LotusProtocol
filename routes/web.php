@@ -13,7 +13,19 @@
 
 
 // default route to on page load
-Route::view('/', '/frontend/index');
+Route::get('/', function () {
+	$user = Auth::User();
+	if(!empty($user))
+	{
+    	return redirect('/'.$user->username.'/dashboard');
+	}
+	else
+	{
+		return redirect('/index');
+	}
+});
+
+Route::view('/index', '/frontend/index');
 
 Route::view('/about', '/frontend/about');
 
@@ -75,8 +87,14 @@ Route::get('/{username}/downlines', function () {
 })->middleware('auth');
 
 Route::get('/register/{usn}', function ($username) {
-	Session::put('ref', $username);
-    return redirect('/register');
+	$user = Auth::User();
+	if (!empty($user)) {
+		return redirect('/'.$user->username.'/dashboard');
+	}else{
+		Session::put('ref', $username);
+		return redirect('/register');
+	}
+	
 });
 
 

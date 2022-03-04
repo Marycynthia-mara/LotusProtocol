@@ -13,10 +13,10 @@
     <!-- ==========Preloader========== -->
 
    
-    <div class="account-section" style="background-image: url('/img/account-bg.jpg');">
+    <div class="account-section" >
         <div class="container">
             <div class="account-title">
-                <a href="/" class="back-home"><i class="fas fa-angle-left"></i>Home</a>
+                
                 <a href="#0" class="logo">
                     <img width="80px" height="auto" src="/img/<?php echo e($settings->site_logo); ?>" alt="<?php echo e($settings->site_title); ?>">
                 </a>

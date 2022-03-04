@@ -1721,7 +1721,7 @@ p.text {
   font-size: 18px;
   line-height: 28px;
   font-weight: 600;
-  color: #fff;
+  color: #fff !important; 
   text-transform: capitalize;
   padding-right: 0;
   padding-left: 0;
@@ -1822,7 +1822,7 @@ p.text {
   color: #6342ff;
 }
 .banner .hero-area .banner-content h1.head {
-  color: #33276a;
+  color: #fff;
   font-weight: 700;
   padding: 23px 0 13px;
 }
@@ -1831,7 +1831,7 @@ p.text {
   font-size: 24px;
   line-height: 34px;
   font-weight: 500;
-  color: #4f457c;
+  color: #fff;
 }
 .banner .hero-area .banner-content a.button {
   margin-top: 38px;
@@ -3696,6 +3696,14 @@ p.text {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-image: url('/img/account-bg.jpg');
+}
+
+@media screen and (max-width: 768px){
+  .account-section {
+    background-color:#160d45;
+    background-image: none;
+  }
 }
 .account-section .account-title {
   margin-bottom: 40px;

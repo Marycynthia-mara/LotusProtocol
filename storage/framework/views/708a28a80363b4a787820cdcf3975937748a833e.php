@@ -363,7 +363,38 @@
                                 </div>                                                   
                               </div> 
 
-                              
+                              <div class="col-md-6">
+                                  <div class="card pad_20" >
+                                      <h3 align="center"><img src="https://website-v3-assets.s3.amazonaws.com/assets/img/hero/Paystack-mark-white-twitter.png" height="60px"></img></h3>
+                                      <h2 class="text-center">Paystack Setup</h2>
+                                      <hr>
+                                      <div class="form-group">
+                                          <h5> <?php echo e(__('Paystack Public Key')); ?> </h5>
+                                          <input type="text" name="paystack_pub_key" value="<?php echo e(env('PAYSTACK_PUBLIC_KEY')); ?>" class="form-control" placeholder="Paystack public key"  >
+                                      </div>
+                                      <div class="form-group">
+                                          <h5> <?php echo e(__('Paystack Secret Key')); ?> </h5>
+                                          <input type="text" name="paystack_secret" value="<?php echo e(env('PAYSTACK_SECRET_KEY')); ?>" class="form-control" placeholder="Paystack secrete" >
+                                      </div>  
+                                      <div class="form-group">
+                                          <h5> <?php echo e(__('Paystack Merchant Email')); ?> </h5>
+                                          <input type="email" name="paystack_email" value="<?php echo e(env('MERCHANT_EMAIL')); ?>" class="form-control" placeholder="Paystack email" >
+                                      </div>
+                                      
+                                       <div class="form-group">
+                                          <h5> <?php echo e(__('Paystack Webhook URL')); ?></h5>
+                                          <input type="text" name="" value="<?php echo e(env('APP_URL')); ?>/paystack/callbck" class="form-control" readonly>
+                                      </div>
+                                     
+                                      <div class="" align="right"> 
+                                          <b>On/Off</b><br>             
+                                          <label class="switch">
+                                            <input id="paystack_switch" type="checkbox" name="paystack_switch"  value="<?php echo e(env('PAYSTACK_SWITCH')); ?>" <?php if(env('PAYSTACK_SWITCH') == 1): ?><?php echo e('checked'); ?><?php endif; ?>>
+                                            <span id="" class="slider round" onclick="checkedOnOff('paystack_switch')"></span>
+                                          </label>
+                                      </div>                                                     
+                                  </div>                                                   
+                              </div> 
 
                               
 

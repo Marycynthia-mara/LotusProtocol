@@ -68,6 +68,8 @@ class userController extends Controller
       return $code[0]->phonecode;
   }
 
+
+  // login user
   public function upload_u2s(Request $req)
   {
     $val = Validator::make($req->all(), [
@@ -133,6 +135,7 @@ class userController extends Controller
     }
   }
 
+  // 2 factor authentication
   public function verify_u2s(Request $req)
   {
     $val = Validator::make($req->all(), [
@@ -187,6 +190,7 @@ class userController extends Controller
     }
   }
 
+  // upload profile picture
   public function uploadProfilePic(Request $req)
   {        
       $user = Auth::User();
@@ -200,7 +204,7 @@ class userController extends Controller
 
           $file = $req->file('prPic');
           $path = $user->username.".jpg"; //$req->file('u_file')->store('public/post_img');
-          $file->move(base_path().'/../img/profile/', $path);
+          $file->move(base_path().'/public/img/profile', $path);
           
           $usr = User::find($user->id);
           $usr->img = $path;
@@ -229,6 +233,7 @@ class userController extends Controller
       }
   } 
   
+  // account activation
   public function verify_reg($usn, $code)
   {      
           
@@ -279,6 +284,7 @@ class userController extends Controller
       
   } 
 
+  // change password    
   public function changePwd(Request $req)
   {        
       $user = Auth::User();

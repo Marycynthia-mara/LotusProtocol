@@ -24,7 +24,7 @@
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <div class="card card-primary <?php if($adm->role < 2): ?> <?php echo e('blur_cnt'); ?><?php endif; ?>">
+                            <div class="card card-primary <?php if($adm->role < 2): ?> <?php echo e('blur_cnt'); ?><?php endif; ?>" style="background: #160d45 !important;">
                                 <div class="card-header">
                                     <div class="card-title"> <?php echo e(__('Withdrawal Stats')); ?> </div>                                    
                                 </div>

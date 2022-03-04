@@ -10,12 +10,12 @@
                         <div class="banner-content">
                             <!-- <h3 class="subtitle wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.3s">Welcome to
                                 Lotus Protocol</h3> -->
-                            <h1 class="head wow fadeInUp text-center" data-wow-duration="0.3s" data-wow-delay="0.3s">Best Crypto Investments</h1>
-                            <p class="text-small text-center wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.3s">
-                                We've helped over 10,000 people start Bitcoin
+                            <h1 class="head wow fadeInUp text-center" data-wow-duration="0.3s" data-wow-delay="0.3s" style="color:#fff;">Best Crypto Investments</h1>
+                            <p class="text-small text-center wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.3s" style="color:#fff;">
+                                We are here to help you start your crypto
                                 investing. Build your future.
                             </p>
-                            <a href="/register" style="margin: 0 auto; margin-top: 20px;" class="button button-1 wow fadeInUp" data-wow-duration="0.3s"
+                            <a target="_blank" href="/register" style="margin: 0 auto; margin-top: 20px;" class="button button-1 wow fadeInUp" data-wow-duration="0.3s"
                                 data-wow-delay="0.3s">Start Now !</a>
                         </div>
                     </div>
@@ -23,54 +23,17 @@
             </div>
         </div>
     </div>
+    
+    <?php 
+        // echo base_path().'/public/img/profile'
+    ?>
 
     <!-- Compare Start -->
     <div class="compare" id="currency">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="coin-box owl-carousel owl-theme">
-                        <div class="compare-box item wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.3s">
-                            <div class="single">
-                                <div class="icon">
-                                    <img src="/assets/img/coin-icon-1.png" alt="" class="coin-icon">
-                                    <p class="text">Bitcoin <span>BTC</span></p>
-                                </div>
-                                <h4 class="lasthead">$10,260.74 <span>+2.01%</span></h4>
-                                <p class="text">Price (24 hours)</p>
-                            </div>
-                        </div>
-                        <div class="compare-box item wow fadeInUp" data-wow-duration="0.4s" data-wow-delay="0.3s">
-                            <div class="single">
-                                <div class="icon">
-                                    <img src="/assets/img/coin-icon-2.png" alt="" class="coin-icon">
-                                    <p class="text">Ethereum <span>ETH</span></p>
-                                </div>
-                                <h4 class="lasthead">$352.72 <span>+7.34%</span></h4>
-                                <p class="text">Price (24 hours)</p>
-                            </div>
-                        </div>
-                        <div class="compare-box item wow fadeInUp" data-wow-duration="0.4s" data-wow-delay="0.3s">
-                            <div class="single">
-                                <div class="icon">
-                                    <img src="/assets/img/coin-icon-3.png" alt="" class="coin-icon">
-                                    <p class="text">Litecoin <span>LTC</span></p>
-                                </div>
-                                <h4 class="lasthead">$48.24 <span>+2.59%</span></h4>
-                                <p class="text">Price (24 hours)</p>
-                            </div>
-                        </div>
-                        <div class="compare-box item wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">
-                            <div class="single">
-                                <div class="icon">
-                                    <img src="/assets/img/coin-icon-4.png" alt="" class="coin-icon">
-                                    <p class="text">Dash <span>DASH</span></p>
-                                </div>
-                                <h4 class="lasthead">$68.64 <span>+1.23%</span></h4>
-                                <p class="text">Price (24 hours)</p>
-                            </div>
-                        </div>
-                    </div>
+                    <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js"></script><div id="coinmarketcap-widget-marquee" coins="1,1027,825,3408,74,4943,2,5426,5994" currency="USD" theme="light" transparent="false" show-symbol-logo="true"></div>
                 </div>
             </div>
         </div>
@@ -92,7 +55,7 @@
                         <p class="text wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.3s">
                             The simple way to grow your money like the world’s most sophisticated investors.
                         </p>
-                        <a href="/register" class="button button-1 wow fadeInUp" data-wow-duration="0.3s"
+                        <a target="_blank" href="/register" class="button button-1 wow fadeInUp" data-wow-duration="0.3s"
                             data-wow-delay="0.3s">Sign up for free </a>
                     </div>
                 </div>

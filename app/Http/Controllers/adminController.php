@@ -61,6 +61,7 @@ class adminController extends Controller
   {        
       //return view('user.');
   }
+  
   public function backLogin()
   {
     return view('admin.login', ['settings' => $this->settings]);

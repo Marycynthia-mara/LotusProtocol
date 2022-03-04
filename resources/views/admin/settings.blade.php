@@ -428,7 +428,7 @@
                                 </div>                                                   
                               </div> 
 
-                              {{-- <div class="col-md-6">
+                              <div class="col-md-6">
                                   <div class="card pad_20" >
                                       <h3 align="center"><img src="https://website-v3-assets.s3.amazonaws.com/assets/img/hero/Paystack-mark-white-twitter.png" height="60px"></img></h3>
                                       <h2 class="text-center">Paystack Setup</h2>
@@ -459,7 +459,7 @@
                                           </label>
                                       </div>                                                     
                                   </div>                                                   
-                              </div>  --}}
+                              </div> 
 
                               {{-- <div class="col-md-6">
                                 <div class="card pad_20" >

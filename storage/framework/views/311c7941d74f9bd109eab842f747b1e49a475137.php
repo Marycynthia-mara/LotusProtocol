@@ -51,7 +51,26 @@
                                                         </div> 
                                                     </div>
                                                     <?php endif; ?>
-                                                    
+                                                    <?php if(env('SWITCH_STRIPE') == 1): ?>
+                                                    <div class="col-lg-6 mt-5">                                                                                                  
+                                                        <div class="payment_method" align="center">
+                                                            <p>
+                                                                <i class="fab fa-cc-stripe fa-4x text-info"></i> <br>
+                                                            </p>
+                                                            <p>
+                                                                <?php echo e(__('Pay using Stripe payment gateway')); ?>
+
+                                                            </p> 
+                                                           
+                                                            <div align="">
+                                                                <a href="<?php echo e(route('stripe.amount')); ?>" class="btn btn_blue" >
+                                                                    <?php echo e(__('Pay with Stripe')); ?>
+
+                                                                </a>
+                                                            </div>                                      
+                                                        </div>                                                       
+                                                    </div>
+                                                    <?php endif; ?>
 
                                                     
 
@@ -83,7 +102,26 @@
 
                                                     
 
-                                                    
+                                                    <?php if(env('PAYSTACK_SWITCH') == 1): ?>
+                                                    <div class="col-lg-6 mt-5">                                                                   
+                                                        <div class="payment_method" align="center">
+                                                            <p>
+                                                                <img src="https://website-v3-assets.s3.amazonaws.com/assets/img/hero/Paystack-mark-white-twitter.png" height="50px"></img> <br>
+                                                            </p>
+                                                            <p>
+                                                                <?php echo e(__('Pay using paystack')); ?>
+
+                                                            </p> 
+                                                           
+                                                            <div align="">
+                                                                <a href="<?php echo e(route('paystack.index')); ?>" class="btn btn_blue" >
+                                                                    <?php echo e(__('Pay with Paystack')); ?>
+
+                                                                </a>
+                                                            </div>                                      
+                                                        </div>                                                       
+                                                    </div>
+                                                    <?php endif; ?>
 
                                                     <?php if(env('BANK_DEPOSIT_SWITCH') == 1): ?>
                                                     <div class="col-lg-6 mt-5">                                                                    

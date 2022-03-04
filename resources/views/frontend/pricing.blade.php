@@ -660,6 +660,7 @@
                         <li class="check">Minimum Invest : $100</li>
                         <li class="check">Maximum Invest : $9,999.9</li>
                         <li class="check">Average Weekly : 15% </li>
+                        <li class="check">Duration : 5 days </li>
                     </ol>
                     <div class="price-btn">
                         <a class="blue" href="/login">Invest Now</a>
@@ -677,7 +678,8 @@
                     <ol class="pricing-text">
                         <li class="check">Minimum Invest : $10,000</li>
                         <li class="check">Maximam Invest : $99,999.9</li>
-                        <li class="check">Average Bi-weekly :75% </li>
+                        <li class="check">Average Monthly : 75% </li>
+                        <li class="check">Duration : 15 days </li>
                     </ol>
                     <div class="price-btn">
                         <a class="blue" href="/login">Invest Now</a>
@@ -696,6 +698,7 @@
                         <li class="check">Minimum Invest : $100,000</li>
                         <li class="check">Maximam Invest : $1,000,000</li>
                         <li class="check">Average Monthly : 300% </li>
+                        <li class="check">Duration : 30 days </li>
                     </ol>
                     <div class="price-btn">
                         <a class="blue" href="/login">Invest Now</a>

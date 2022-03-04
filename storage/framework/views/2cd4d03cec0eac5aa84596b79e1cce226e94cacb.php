@@ -13,10 +13,10 @@
     <!-- ==========Preloader========== -->
 
    
-    <div class="account-section" style="background-image: url('/img/account-bg.jpg');">
+    <div class="account-section" >
         <div class="container">
             <div class="account-title">
-                <a href="/" class="back-home"><i class="fas fa-angle-left"></i>Back</a>
+                
                 <a href="#0" class="logo">
                     <img width="100px" height="auto" src="/assets/img/footer-logo.png" alt="<?php echo e($settings->site_title); ?>">
                 </a>
@@ -29,7 +29,7 @@
 
                         <div class="form-group row" > 
                             <div class="col-sm-6">
-                                <input id="Fname" type="text" class=" <?php $__errorArgs = ['Fname'];
+                                <input id="Fname" type="text" class="form-control <?php $__errorArgs = ['Fname'];
 $__bag = $errors->getBag($__errorArgs[1] ?? 'default');
 if ($__bag->has($__errorArgs[0])) :
 if (isset($message)) { $__messageOriginal = $message; }
@@ -52,7 +52,7 @@ endif;
 unset($__errorArgs, $__bag); ?>
                             </div>
                              <div class="col-sm-6">
-                                <input id="Lname" type="text" class=" <?php $__errorArgs = ['Lname'];
+                                <input id="Lname" type="text" class="form-control <?php $__errorArgs = ['Lname'];
 $__bag = $errors->getBag($__errorArgs[1] ?? 'default');
 if ($__bag->has($__errorArgs[0])) :
 if (isset($message)) { $__messageOriginal = $message; }
@@ -79,7 +79,7 @@ unset($__errorArgs, $__bag); ?>
                         <div class="form-group row"> 
                                                     
                             <div class="col-sm-12">
-                                  <input id="email" type="email" class=" <?php $__errorArgs = ['email'];
+                                  <input id="email" type="email" class="form-control <?php $__errorArgs = ['email'];
 $__bag = $errors->getBag($__errorArgs[1] ?? 'default');
 if ($__bag->has($__errorArgs[0])) :
 if (isset($message)) { $__messageOriginal = $message; }
@@ -106,7 +106,7 @@ unset($__errorArgs, $__bag); ?>
                         <div class="form-group row">
 
                             <div class="col-sm-12">
-                               <input id="username" type="username" class=" <?php $__errorArgs = ['username'];
+                               <input id="username" type="username" class="form-control <?php $__errorArgs = ['username'];
 $__bag = $errors->getBag($__errorArgs[1] ?? 'default');
 if ($__bag->has($__errorArgs[0])) :
 if (isset($message)) { $__messageOriginal = $message; }
@@ -132,7 +132,7 @@ unset($__errorArgs, $__bag); ?>
 
                         <div class="form-group row">
                             <div class="col-sm-6">
-                                <input id="password" type="password" class=" <?php $__errorArgs = ['password'];
+                                <input id="password" type="password" class="form-control <?php $__errorArgs = ['password'];
 $__bag = $errors->getBag($__errorArgs[1] ?? 'default');
 if ($__bag->has($__errorArgs[0])) :
 if (isset($message)) { $__messageOriginal = $message; }
@@ -155,7 +155,7 @@ endif;
 unset($__errorArgs, $__bag); ?>
                             </div>
                             <div class="col-sm-6">
-                                <input id="password-confirm" type="password" class=" regTxtBox" name="password_confirmation" required autocomplete="new-password" placeholder="Confirm Password" >
+                                <input id="password-confirm" type="password" class="form-control regTxtBox" name="password_confirmation" required autocomplete="new-password" placeholder="Confirm Password" >
                             </div>
 
                         </div>
@@ -167,7 +167,7 @@ unset($__errorArgs, $__bag); ?>
 
                         <div class="row">
                             <div class="">
-                                <input id="ref" type="hidden" class="" name="ref" value="<?php if(count($usn) > 0): ?><?php echo e(Session::get('ref')); ?><?php endif; ?>" >
+                                <input id="ref" type="hidden" class="form-control" name="ref" value="<?php if(count($usn) > 0): ?><?php echo e(Session::get('ref')); ?><?php endif; ?>" >
                             </div>
                         </div>
 

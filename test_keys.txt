@@ -1,0 +1,7 @@
+
+Coinbase Key:a8ba4ffb-2a1e-4267-a51a-10b709d64e11
+Coinbase Webhook Secret:b7e118ff-a37d-4228-91be-f53225e8a8cc
+
+
+Paypal ID:Aa5wr0A-kXgrDFDXuV_o3PWN20S-qI6FZ90EvgvaEGWdBvLefx6OLzqKiSPBa5HdnFiObI2t3JwoFjVZ
+Paypal Secret:EFIIqRbXM86V8sTWdFeU1OWddf7rpdafL7Vj8CdDpQi3nplNCjGq5Tv5OvgMyVRG8jd3lrS8mHWd69sv

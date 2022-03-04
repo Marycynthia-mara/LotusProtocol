@@ -188,7 +188,7 @@ button{
 }
 
 .fixedOeverlayBG{
-	position: fixed; left: 0px; top: 0px; height:100%; width: 100%; background-color: rgba(106, 53, 255, .8);
+	position: fixed; left: 0px; top: 0px; height:100%; width: 100%; background-color: rgba(22, 13, 69, .8);
 }
 
 .fixedOverlayIMG{

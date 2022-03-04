@@ -49,7 +49,7 @@
                                                         </div> 
                                                     </div>
                                                     @endif
-                                                    {{-- @if(env('SWITCH_STRIPE') == 1)
+                                                    @if(env('SWITCH_STRIPE') == 1)
                                                     <div class="col-lg-6 mt-5">                                                                                                  
                                                         <div class="payment_method" align="center">
                                                             <p>
@@ -66,7 +66,7 @@
                                                             </div>                                      
                                                         </div>                                                       
                                                     </div>
-                                                    @endif --}}
+                                                    @endif
 
                                                     {{-- @if(env('PM_SWITCH') == 1)
                                                     <div class="col-lg-6 mt-5">                                                                   
@@ -164,7 +164,7 @@
                                                     </div>
                                                     @endif --}}
 
-                                                    {{-- @if(env('PAYSTACK_SWITCH') == 1)
+                                                    @if(env('PAYSTACK_SWITCH') == 1)
                                                     <div class="col-lg-6 mt-5">                                                                   
                                                         <div class="payment_method" align="center">
                                                             <p>
@@ -181,7 +181,7 @@
                                                             </div>                                      
                                                         </div>                                                       
                                                     </div>
-                                                    @endif --}}
+                                                    @endif
 
                                                     @if(env('BANK_DEPOSIT_SWITCH') == 1)
                                                     <div class="col-lg-6 mt-5">                                                                    

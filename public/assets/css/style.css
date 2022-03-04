@@ -500,6 +500,7 @@ p.text {
 
 /* Banners Start */
 .banner {
+  background-image: url("../img/bg-4.jpg");
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
@@ -518,7 +519,7 @@ p.text {
   font-size: 24px;
   line-height: 34px;
   font-weight: 500;
-  color: #4f457c;
+  color: #fff;
 }
 .banner .hero-area .banner-content a.button {
   margin-top: 38px;
@@ -564,7 +565,7 @@ p.text {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  color: #33276a;
+  color: #fff;
   margin: 20px 0 5px;
 }
 .compare .coin-box .compare-box .single h4.lasthead span {
@@ -1721,7 +1722,7 @@ p.text {
   font-size: 15px;
   line-height: 28px;
   font-weight: 600;
-  color: #313437;
+  color: #fff;
   text-transform: capitalize;
   padding-right: 0;
   padding-left: 0;
@@ -5000,3 +5001,4 @@ span.users {
   display: inline-block;
   border: 1px solid #7a66e1;
 }
+

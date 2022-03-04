@@ -37,17 +37,17 @@
                         </li> -->
 
                         <li class="nav-item"><a href="/features" class="nav-link {{ request()->is('features') ? 'active' : '' }}">Features</a></li>
-                        <li class="nav-item"><a href="/pricing" class="nav-link {{ request()->is('pricing') ? 'active' : '' }}">pricing</a></li>
+                        <li class="nav-item"><a href="/pricing" class="nav-link {{ request()->is('pricing') ? 'active' : '' }}">Packages</a></li>
                         <li class="nav-item"><a href="/faq" class="nav-link {{ request()->is('faq') ? 'active' : '' }}">Faq</a></li>
                         {{-- <li class="nav-item"><a href="Blog" class="nav-link {{ request()->is('blog') ? 'active' : '' }}" tooltip="coming soon">Blog</a></li> --}}
-                        <li class="nav-item"><a href="/login" class="nav-link">Login</a></li>
-                        <li class="nav-item"><a href="/register" class="nav-link">Registration</a></li>
+                        <li class="nav-item"><a target="_blank" href="/login" class="nav-link">Login</a></li>
+                        <li class="nav-item"><a target="_blank" href="/register" class="nav-link">Registration</a></li>
 
 
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li> -->
                         <li class="nav-item">
+                            <div id="google_translate_element"></div>
+                        </li>
+                        {{-- <li class="nav-item">
                             <div class="language-select">
                                 <select class="select-bar">
                                     <option value="">EN</option>
@@ -55,7 +55,7 @@
                                     <option value="">BN</option>
                                 </select>
                             </div>
-                        </li>
+                        </li> --}}
                         <li class="nav-item">
                             <a class="nav-link button-1" href="/register" style="color:#fff">Start Now !</a>
                         </li>
